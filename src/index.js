@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UseEf from "./useeffect/UseEf";
+import Use from "./usestate/Use"
+import Cleanup from "./useeffect/Cleanup"
+// import UserRef from "./uncontrolled/UserRef"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  <>
+  {/* <UseEf/> */}
+  <Use/>
+  <Cleanup/>
+  {/* <UserRef/> */}
+
+  </>,
   document.getElementById('root')
 );
 
